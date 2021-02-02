@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knowledgebase</title>
+    <link rel="stylesheet" href="../stylesheets/stylesheet.css">
+</head>
+<body>
+
+<div class="header">
+    <p>
+
+    </p>
+</div>
+
+<div id="navbar">
+    <a class="active" href="home.html">Home</a>
+    <a href="matters.html">Matters</a>
+    <a href="reports.html">Reports</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="clients.html">Clients</a>
+    <a href="timesheet.html">Timesheet</a>
+    <a href="email.html">Email</a>
+    <a href="knowledgebase.html">Knowledgebase</a>
+</div>
+
+<div class="content">
+    <h3>Knowledebase</h3>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+</body>
+</html>
