@@ -92,3 +92,8 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.button-login {
+    margin: 5px;
+    float: right;
+}
